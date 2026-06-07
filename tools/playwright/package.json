@@ -1,0 +1,12 @@
+{
+  "name": "gamegen-verifier-playwright",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Shared Playwright dependency for keypoint evaluation workers",
+  "dependencies": {
+    "playwright": "1.58.1"
+  },
+  "scripts": {
+    "install:chromium": "playwright install chromium"
+  }
+}

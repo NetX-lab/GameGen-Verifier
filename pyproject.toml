@@ -1,0 +1,17 @@
+[project]
+name = "gamegen-verifier"
+version = "0.0.0"
+description = "GameGen-Verifier: state-grounded verification for game generation (anonymized release)"
+requires-python = ">=3.11"
+dependencies = [
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "scripts"]
